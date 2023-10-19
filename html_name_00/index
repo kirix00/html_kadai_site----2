@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="ja">
+<!-- 最初の設定は終わっています　必要な方は触ってください -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>MUSEUM</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<!-- 最初の設定は終わっています　必要な方は触ってください -->
+
+<body>
+  <!-- この中に記述していく -->
+  <!-- ここから下にコードを書く -->
+  <div class="wrap">
+    
+    <header id="header">
+      <img src="./img/museum-logo.png" alt="header_logo">
+    </header>
+    <!-- /#headesr -->
+    <header class="header">
+      <ul>
+        <li class="about">ABOUT</li>
+        <li class="course">観る</li>
+        <li class="news">喋る</li>
+        <li class="access">買う</li>
+        <li class="content">推す</li>
+      </ul>
+    </header>
+    <!-- /.header -->
+
+    <div class="mainvisual">
+      <!-- <img src="./img/mainbg.png" alt="メインビジュアル"> -->
+      <div class="blur">
+      <img src="./img/bg_img01.jpeg" alt="">
+     </div>
+      <h1>MUSEUM</h1>
+      <p>今日、どの美術館いく？</p>
+    </div>
+    <!-- /.mainvisual -->
+
+    <!-- main_content -->
+    <div class="main_content">
+      <div class="content_about">
+        <h2>ABOUT</h2>
+        <h3>MUSEUMについて</h3>
+        <p class="ca_p1">MUSEUMは、もっと美術館を楽しみたいのに、どうしたらいいの？<br>
+        という方のためのサイトです。</p>
+        
+        <p class="ca_p2">観る。喋る。買う。推す。</p><br>
+
+        <div class="miru">
+          <p>観 る</p>
+        </div>
+        <table>
+          <tr>
+            <!-- <th><p>イヴ・サンローラン展</p></th> -->
+            <td class="td_img">
+              <a href="https://ysl2023.jp/"><img src="./img/2023-10-16ysl.png" alt=""></a></td>
+            <td><a class="twitter-timeline" data-width="600" data-height="600" data-theme="light" href="https://twitter.com/museum75001?ref_src=twsrc%5Etfw">Tweets by museum75001</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></td>
+          </tr>
+          <tr>
+            <td><a href="https://ysl2023.jp/goods/"><img src="./img/ysl_img.png" alt=""></a></td>
+            <td><a href=""></a><img src="./img/ysl_zuroku.png" alt=""></td>
+          </tr>
+        </table>
+        <!-- <table>
+          <tr>
+            <td><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6482.951251522098!2d139.726374!3d35.665289!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b7bf6ceeb3f%3A0x4025f2eaf2aa9d18!2z5Zu956uL5paw576O6KGT6aSo!5e0!3m2!1sja!2sjp!4v1697451459260!5m2!1sja!2sjp" width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></td>
+            <td>
+
+            </td>
+          </tr>
+        </table> -->
+      </div>
+        <div class="flex_1">
+          <div><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6482.951251522098!2d139.726374!3d35.665289!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b7bf6ceeb3f%3A0x4025f2eaf2aa9d18!2z5Zu956uL5paw576O6KGT6aSo!5e0!3m2!1sja!2sjp!4v1697451459260!5m2!1sja!2sjp" width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+          <div class="flex_item"><h2>イヴ・サンローラン展</h2><br>会場：国立新美術館<br>
+            東京都港区六本木7-22-2<br>
+            会期：2023年9月20日（水）～12月11日（月）<br>
+            休館日：火曜日
+          </div>
+        </div>
+        <div class="miru">
+          <p>喋　る</p>
+        </div>
+        <div class="tweet">
+          <div class="tweet1">
+            <blockquote class="twitter-tweet" data-width="600px"><p lang="ja" dir="ltr">イヴ・サンローラン展のトートバッグ、どんな服にも合うし使いやすい。 <a href="https://t.co/1X3gXIVmO6">pic.twitter.com/1X3gXIVmO6</a></p>&mdash; 七 (@murasaki_nanako) <a href="https://twitter.com/murasaki_nanako/status/1712403257291858101?ref_src=twsrc%5Etfw">October 12, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
+          <div class="tweet1">
+            <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">＼ BS-TBSでの放送が決定 ／<br><br>特別番組『イヴ・サンローラン展　時を超えるスタイル　冨永愛とたどる３つの革命』<br>10月15日(日)ひる12時30分〜BS-TBSにて放送！<br><br>先日地上波にて放送された特別番組。<br>イヴ・サンローランがファッションに<br>起こした３つの革命を <a href="https://twitter.com/hashtag/%E5%86%A8%E6%B0%B8%E6%84%9B?src=hash&amp;ref_src=twsrc%5Etfw">#冨永愛</a> さんとたどります… <a href="https://t.co/Y8h3qlV6vE">pic.twitter.com/Y8h3qlV6vE</a></p>&mdash; イヴ・サンローラン展　時を超えるスタイル (@ysl2023_ats) <a href="https://twitter.com/ysl2023_ats/status/1712755452474483096?ref_src=twsrc%5Etfw">October 13, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
+        </div>
+        <div class="tweet">
+          <div class="tweet1">
+            <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">イヴ・サンローラン展！ <a href="https://t.co/mvDz5j4cZe">pic.twitter.com/mvDz5j4cZe</a></p>&mdash; kua (@keke_O2021) <a href="https://twitter.com/keke_O2021/status/1713564977578316288?ref_src=twsrc%5Etfw">October 15, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
+          <div class="">
+            <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ずっと行きたかったｲｳﾞ・ｻﾝﾛｰﾗﾝ展へ👗✨<br><br>彼が亡くなって日本で初めて開催される回顧展で、即前売りﾁｹｯﾄ買ってgo〜🏃‍♀️👏🏻<br><br>ﾃﾞｻﾞｲﾅｰとして40年やってきた軌跡がぎっしり詰まってて見応えあるし、ｼｬﾈﾙ展、ﾃﾞｨｵｰﾙ展に続き見れて幸せでした👀💫 <a href="https://t.co/nZ7J5IxYux">pic.twitter.com/nZ7J5IxYux</a></p>&mdash; 𝐺𝑖𝑛𝑔𝑒𝑟 (@ginger_spice_7) <a href="https://twitter.com/ginger_spice_7/status/1712079241377161338?ref_src=twsrc%5Etfw">October 11, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
+        </div>
+        <div>
+          <div>
+            <img src="./img/ysl_img.png" alt="">
+          </div>
+        </div>
+      </div>
+  <!-- test -->
+<!-- 
+        
+        <h3>MUSEUMについて</h3>
+        <p class="ca_honmon1">MUSEUMは美術館を推したいのに、どうしたらいいの？<br>
+        という方のためのサイトです。</p>
+        
+        <p class="ca_honmon2">行く。観る。買う。推す。<br>
+          そして、食卓にはいつもチーズがあった、あの頃の当たり前をこの手で取り戻したい。
+        </p>
+          
+        <p class="ca_honmon3">そんな思いから、チーズ職人養成学校「チーズアカデミーTOKYO」は歩みを始めています。
+        </p>
+
+        <p class="ca_honmon4">卒業後、チーズ自給自足のバックアップはもちろんのこと、<br>
+          チーズ職人への就職・転職もサポートします。</p> -->
+
+      </div>
+    </div> 
+
+    <!-- content_course -->
+      <div class="content_course">
+        <h2>COURSE</h2>
+        <p class="cc_h">未経験からでもスタートができるよう、カリキュラムは多くの専門家や<br>
+          現役チーズ職人のアドバイスのもと、作られました。<br>
+
+      <div class="card1">
+        <img src="./img/course_01.jpg" alt="">  
+          
+        <p class="p1"><span>本格的な農園を使った実地研修</span><br>
+        チーズアカデミーでは、本格的な農園を使った実地研修を
+          行うことができます。プロとして活躍するチーズ職人も
+          使用するような、広大で環境も整った農園を余すところ
+          なく使い、卒業時には本格的なチーズを自分の力で作れる
+          実践力の養成を目指します。</p>
+      </div>
+
+        <div class="card2">
+          <p class="p2"><span>必要な知識もしっかりと取得</span><br>
+            チーズ作りには、しっかりとした食に関する知識が
+            欠かせません。チーズアカデミーでは、一流講師陣による、
+            チーズ作りに必要ないろはを余すところなく学べます。
+            チーズそのものでなく、栄養学全般を学ぶことも
+            可能ですので、チーズ以外への展開も夢ではないでしょう。</p>
+            <img src="./img/course_02.jpg" alt="">
+        </div>
+
+        <div class="card3">
+            <img src="./img/course_03.jpg" alt="">
+            <p class="p3"><span>卒業制作はティスティング審査あり</span><br>
+              チーズアカデミーでは最後の2ヶ月間で卒業制作を実施。
+              卒業制作として、チーズ作りを実際に行います。卒業後、
+              一般参加によるティスティング審査があるため、作り手の
+              目線だけでなく、消費者の目線から、卒業制作作品としての
+              チーズを、しっかりと評価いただくことができます。
+              </p>
+        </div>
+
+      </div>
+      
+      <!-- NEWS -->
+      <div class="content_news">
+        <h2 class="heading">NEWS</h2>
+        <p class="lead">ニュース</p>
+        <div class="list_news">
+          <div class="list_item">
+            <img src="./img/news_img.jpg" class="image">
+            <div class="text_list">2016/11/18
+            チーズアカデミー卒業生のコスゲさんによる
+            チーズだけをふんだんに使用した話題のピザ屋
+            「Kosuge Pizza」が渋谷でオープンしました！
+            </div>
+          </div>
+          <div class="list_item">
+            <img src="./img/news_img.jpg" class="image">
+            <div class="text_list">2016/11/18
+            チーズアカデミー卒業生のコスゲさんによる
+            チーズだけをふんだんに使用した話題のピザ屋
+            「Kosuge Pizza」が渋谷でオープンしました！
+            </div>
+          </div>
+          <div class="list_item">
+            <img src="./img/news_img.jpg" class="image">
+            <div class="text_list">2016/11/18
+            チーズアカデミー卒業生のコスゲさんによる
+            チーズだけをふんだんに使用した話題のピザ屋
+            「Kosuge Pizza」が渋谷でオープンしました！
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content_access">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4716.177328252025!2d139.70039703301998!3d35.66907790370033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c9fa9e2e881%3A0x35396adb5ba7ce03!2z44K444O844K644Ki44Kr44OH44Of44O85p2x5Lqs!5e0!3m2!1sja!2sjp!4v1697094216676!5m2!1sja!2sjp" width="1200" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="access_table">
+          <table>
+            <tr>
+              <td>学校名</td> <td>チーズアカデミーTOKYO</td>
+            </tr>
+            <tr>
+              <td>事務所所在地</td> <td>〒107-0061東京都港区北青山3-5-6 青朋ビル2F</td>
+            </tr>
+            <tr>
+              <td>学校名</td> <td>チーズアカデミーTOKYO</td>
+            </tr>
+            <tr>
+              <td>TEL</td> <td>03-5413-5045</td>
+            </tr>
+            <tr>
+              <td>FAX</td> <td>03-5413-5046</td>
+            </tr>
+            <tr>
+              <td>MAIL</td> <td>dummy@cheeseacademy.tokyo</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="content_contact">
+        <p>説明会お申し込み・お問い合わせ<br>
+          ぜひ1度、足を運んでみませんか。説明会は随時開催中。<br>
+          その他、お問い合わせもお気軽にどうぞ。お待ちしております。<br>
+          ※チーズアカデミーは実際には存在しません。<br>
+          間違っても問い合わせしないようお願いいたします。</p>
+
+        <div class="contact_form">
+          <!-- <table border="1" class="border1"> -->
+          <table class="border1" width="640px">
+          <!-- <table border="1"> -->
+          <!-- <table border="5"> -->
+            <tr class="t_head">
+              <td height="36px">名前</td> <td></td>
+            </tr>
+            <tr>
+              <td height="36px">カナ</td> <td></td>
+            </tr>
+            <tr>
+              <td height="36px">メールアドレス</td> <td></td>
+            </tr>
+            <tr>
+              <td height="36px">チーズアカデミーを<br>知ったきっかけ</td>
+              <td height="52px">
+                <form action="#" method="post">
+                  <select name="プルダウンメニュー名">
+                    <option value=""></option>
+                    <option value="google検索">google検索</option>
+                    <option value="SNS">SNS</option>
+                    <option value="紹介">紹介</option>
+                    <option value="たまたま通りかかった">たまたま通りかかった</option>
+                    <option value="その他">その他</option>
+                  </select>
+                </form>
+              </td>
+            </tr>
+            <tr>
+              <td height="36px">志望動機選</td> 
+              <td>
+                <span class="check1">
+                  <input type="checkbox" name="douki" value="起業をしたい">起業をしたい<br>
+                  <input type="checkbox" name="douki" value="チーズ系企業に就職・転職したい">チーズ系企業に就職・転職したい<br>
+                  <input type="checkbox" name="douki" value="チーズと関わる仕事をしており、仕事に生かしたい">チーズと関わる仕事をしており、仕事に生かしたい<br>
+                  <input type="checkbox" name="douki" value="チーズの教養を身につけたい">チーズの教養を身につけたい<br>
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td>詳細</td><td><textarea name="" id="" cols="30" rows="10"></textarea></td></tr>
+          </table>
+          <div class="submit_btn">
+          <input type="submit" value="送信" class="s_btn">
+          </div>
+        </div>
+      </div>
+    <!-- /.content -->
+
+    <!-- <div class="content-form"> -->
+
+    </div>
+    <!-- /.content-form -->
+
+    <footer id="footer">
+    
+    </footer>
+    <!-- /#footer -->
+
+
+    <footer>
+      <div class="copyrights">
+      <p>copyrights 2016 Cheeese Academy Tokyo All RIghts Reserved.</p>
+      </div>
+    </footer>
+    <!-- /.footer -->
+    <!-- ここから上にコードを書く -->
+    <!-- この中に記述していく -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/main.js"></script>
+  </div>
+  </div>
+</body>
+
+</html>

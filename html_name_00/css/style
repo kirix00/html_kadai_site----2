@@ -1,0 +1,131 @@
+/* ここから下に記載していく */
+body {
+  /* font-family: ; */
+  width: 1200px;
+}
+
+header#header img {
+  /* display: flex; */
+  /* justify-self: start; */
+  width: 400px;
+  float: left;
+  /* text-align: center; */
+}
+
+.header li {
+  /* display: flex; */
+  /* justify-content: flex-end; */
+  /* list-style: none; */
+  /* float: left; */
+  /* font-size: 21px; */
+  /* padding: 20px; */
+  /* line-height: 50px; */
+  /* vertical-align: middle; */
+  /* text-align: right; */
+}
+
+.header ul {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 21px;
+  /* text-align: right; */
+  padding: 50px;
+}
+
+.about {
+  /* padding:right 50px; */
+  margin-right: 50px;
+}
+.course {
+  margin-right: 50px;
+}
+.access {
+  margin-right: 50px;
+}
+.content {
+  margin-right: 50px;
+}
+  /* margin: 500px */
+.mainvisual {
+  position: relative;
+  
+}
+
+.mainvisual img {
+  width: 100%;
+  margin: auto;
+}
+
+.mainvisual h1 {
+  font-size: 40px;
+  color: white;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.mainvisual p {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  line-height: 30px;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* ./content */
+
+.content_about {
+  /* margin: 0 auto; */
+  text-align: center;
+  margin-top: 60px;
+}
+
+.content_about h2 {
+  font-size: 24px;
+  /* margin: 60px; */
+  /* margin-top: 30px; */
+  color: gold;
+}
+
+.content_about h3 {
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.ca_honmon1 {
+  font-size: 16px;
+  margin-top: 60px;
+  color:#222222;
+}
+.ca_honmon2 {
+  font-size: 16px;
+  margin-top: 40px;
+  color:#222222;
+  line-height: 40px;
+}
+.ca_honmon3 {
+  font-size: 16px;
+  margin-top: 40px;
+  color:#222222;
+}
+.ca_honmon4 {
+  font-size: 16px;
+  margin-bottom: 80px;
+  margin-top: 40px;
+  color:#222222;
+  line-height: 40px;
+}
+
+.cc_pic {
+  display: flex;
+  justify-content: center;
+}
+
+.content_course h2 {
+  font-size: 24px;
+}
